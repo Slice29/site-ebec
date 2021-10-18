@@ -1,0 +1,278 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'orbitronblack';
+}
+body
+{
+    width: 100%;
+     background-image: url('background7.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#baraSus
+{
+    width: 100%;
+    min-height: 150px; 
+}
+
+#titlu
+{
+    margin-top: 1.3em;
+    margin-bottom: -25px;
+    color: white;
+    font-size: 4rem;
+    font-family: 'orbitronbold';
+}
+h2
+{
+    margin-top: 1.5em;
+    margin-bottom: -25px;
+    color:gray ;
+    font-size: 2rem;
+    font-family: 'orbitronbold';
+}
+h3
+{
+    margin-top: 4rem;
+    margin-bottom: -25px;
+    color:white ;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'orbitronmedium';
+}
+
+
+
+#portal
+{
+    
+    position: relative;
+    bottom: 50px;
+    display: inline-block;
+    justify-content: center;
+    width: 1000px;
+    text-align: center;
+    overflow: hidden;
+}
+#sus
+{
+    z-index: 99;
+    position: absolute;
+    left: 500px;
+    top: 110px;
+}
+#jos
+{
+    z-index: 99;
+    position:absolute;
+    left:250px;
+    top:500px;
+}
+
+
+#fulgere 
+{
+    
+    width: 600px;
+    height: 600px;
+    animation : wheel 6s infinite linear;
+    filter: drop-shadow(0 0 20px rgba(100, 100, 255, 1)) drop-shadow(0 0 44px rgba(255, 100, 255, 1)) drop-shadow(0 0 20px rgba(100, 100, 255, 1)); 
+}
+#portint
+{
+    /* background-color:rgba(100, 100, 255, 1); */
+    background-color: black;
+    border-radius: 40%;
+    animation : wheel2 3s infinite linear;
+    position: absolute;
+    width: 370px;
+    top:200px;
+    right: 315px;
+}
+#ebec
+{
+    color: white;
+    font-family: 'orbitronbold';
+    position: relative;
+    top:340px;
+    left: 5px;
+    font-size: 4rem;
+    text-shadow: 0px 0px 15px #0000FF; 
+
+}
+
+.nav-link
+{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-brand
+{
+    /* position: absolute; */
+    color: white;
+    font-size: 2rem;
+}
+.nav-item img
+{
+    max-width: 90%;
+    max-height: 8rem;
+    
+}
+
+
+#logoEbec img
+{
+    /* border:5px solid black;
+    border-radius: 50%;
+    background-color: rgb(100, 100, 255); */
+    height: 8rem;
+    width: 15rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+} 
+
+#logoEbec img:hover
+{
+    filter: hue-rotate(240deg);
+}
+
+
+.nav-item img:hover
+{
+ filter: brightness(0.5) sepia(0.7) saturate(10000%) hue-rotate(240deg) saturate(60.8%);
+}
+
+#bar_container {
+    box-sizing: border-box;
+    width: 70em;
+    max-width: 90vw;
+    position: relative;  
+    height: 4em;
+    line-height: 4em;
+    vertical-align: middle;
+}
+
+#bar
+{
+    background-color: rgb(100, 100, 255);   
+    box-sizing: border-box;
+    height: 4em;
+    position: absolute;
+    border-radius: 1em;
+    z-index: 90;
+    animation: loading 4s infinite linear;
+}
+
+
+#bar_container span
+{
+    position: absolute;
+    right: 1em;
+    color:black;
+    z-index: 99;
+    font-size:2rem;
+} 
+
+.btn-outline-light:hover {
+    color: black;
+    background-color:rgba(100, 100, 235, 1);
+    border-color: #f8f9fa;
+}
+
+#footerJos
+{
+    width: 100%;
+    height: 180px;
+    
+}
+#celMaiDeJos
+{
+    background: none;
+    font-family: 'orbitronlight';
+}
+.footerText
+{
+    font-family: 'orbitronlight';
+}
+
+
+  .navbar .navbar-collapse
+  {
+    text-align: center;
+  }
+
+
+
+@keyframes loading
+{
+    from
+    {
+        width:0%;
+    }
+    to
+    {
+        width:100%;
+    }
+}
+
+
+@keyframes wheel
+{
+    from
+    {
+        transform: rotateZ(0deg);
+    }
+    to
+    {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+@keyframes wheel6
+{
+    from
+    {
+         transform: translate(-100px);
+        /* transform: translateX(10%); */
+    }
+    to
+    {
+        transform: translate(200px);
+    }
+}
+
+
+@keyframes wheel2
+{
+    from
+    {
+        transform: rotateZ(360deg);
+    }
+    to
+    {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes rotatas {
+    from
+    {
+        transform: translateY(0%) rotateZ(0deg);
+    }
+    to 
+    {
+        transform: translateY(100%) rotateZ(360deg);
+    }
+}
