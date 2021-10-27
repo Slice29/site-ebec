@@ -38,7 +38,7 @@ body
    
 }
 
-.navbar .navbar-expand #navbarSupportedContent
+.navbar.navbar-expand #navbarSupportedContent
 {
     display: flex;
     justify-content: space-around;
@@ -48,6 +48,7 @@ body
 {
     margin-top: 1.3em;
     margin-bottom: -25px;
+    margin-left: 0.8rem;
     color: white;
     font-size: 4rem;
     font-family: 'orbitronbold';
@@ -87,15 +88,19 @@ h3
 {
     z-index: 99;
     position: absolute;
-    left: 500px;
-    top: 110px;
+    left: 550px;
+    top: 100px;
+    width: 90%;
+    height: 90%;
 }
 #jos
 {
     z-index: 99;
     position:absolute;
-    left:250px;
+    left:220px;
     top:500px;
+    width: 90%;
+    height: 90%;
 }
 
 
@@ -298,11 +303,12 @@ h3
 
 
 @media screen and (max-width: 480px) {
-    html, body {
+    html,body {
         overflow-x: hidden;
       }
      body {
-        position: relative}
-  }
+        position: relative} 
+  }  
+  
 
 
