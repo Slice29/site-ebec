@@ -162,7 +162,7 @@ h3
     border-radius: 50%;
     background-color: rgb(100, 100, 255); */
     height: 10rem;
-    width: 100%;
+    max-width: 70%;
     /* margin-left: 20rem;
     margin-right: 20rem; */
 } 
