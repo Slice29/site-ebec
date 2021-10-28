@@ -158,11 +158,10 @@ h3
 
 #logoEbec img
 {
-    /* border:5px solid black;
-    border-radius: 50%;
-    background-color: rgb(100, 100, 255); */
-    /* margin-left: 20rem;
-    margin-right: 20rem; */
+    #logoEbec img {
+    height: auto;
+    width: 14rem;
+    margin-top: 1.3rem;
 } 
 
 #logoEbec img:hover
