@@ -155,14 +155,12 @@ h3
     
 }
 
-
-#logoEbec img
+  #logoEbec img 
 {
-    #logoEbec img {
     height: auto;
     width: 14rem;
     margin-top: 1.3rem;
-} 
+}
 
 #logoEbec img:hover
 {
