@@ -16,7 +16,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    overflow-x: hidden;
+    
 }
 
 .scrollbar-hidden::-webkit-scrollbar {
@@ -52,6 +52,7 @@ body
     color: white;
     font-size: 4rem;
     font-family: 'orbitronbold';
+    /* overflow-x: hidden; */
 }
 h2
 {
@@ -298,12 +299,25 @@ h3
 
 
 @media screen and (max-width: 480px) {
-    html,body {
+    html,body 
+    {
         overflow-x: hidden;
-      }
-     body {
-        position: relative} 
-  }  
+    }
+      *
+    {
+        overflow-x: hidden;
+    
+    
+    }
+    #titlu
+    {
+         overflow-x: hidden;
+    }
+     body 
+    {
+        position: relative
+    }  
+}
   
 
 
