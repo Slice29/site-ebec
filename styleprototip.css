@@ -213,8 +213,13 @@ h3
 
 #footerJos
 {
+    border-top: 10px solid black;
     width: 100%;
-    height: 180px;
+    height: 10rem;
+}
+#iauzi
+{
+    
 }
 #celMaiDeJos
 {
@@ -311,11 +316,11 @@ h3
     }
     #titlu
     {
-         overflow-x: hidden;
+         overflow: hidden;
     }
      body 
     {
-        position: relative
+        position: relative;
     }  
 }
   
