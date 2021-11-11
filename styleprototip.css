@@ -52,15 +52,19 @@ body
     color: white;
     font-size: 4rem;
     font-family: 'orbitronbold';
-    /* overflow-x: hidden; */
+    overflow: hidden;
+    /* background-color: rgb(0,0,0,0.7); */
+    text-shadow: -10px -10px 7px #100D0F;
+    transform: translateY(1.5rem);
 }
 h2
 {
     margin-top: 1.5em;
     margin-bottom: -25px;
-    color:gray ;
+    color:white ;
     font-size: 2rem;
     font-family: 'orbitronbold';
+    overflow: hidden;
 }
 h3
 {
@@ -70,6 +74,7 @@ h3
     font-size: 1.5rem;
     font-weight: 100;
     font-family: 'orbitronmedium';
+    overflow: hidden;
 }
 
 
@@ -85,25 +90,43 @@ h3
     text-align: center;
     overflow: hidden;
 }
+
+
 #sus
 {
     z-index: 99;
     position: absolute;
-    left: 550px;
-    top: 100px;
-    width: 90%;
-    height: 90%;
+    left: 540px;
+    top: 70px;
+    transform: rotate(-5deg);
+}
+#baraMea
+{
+    display: flex;
+    flex-direction: row;
 }
 #jos
 {
     z-index: 99;
     position:absolute;
-    left:220px;
-    top:500px;
-    width: 90%;
-    height: 90%;
+    left:180px;
+    top:480px;
+    transform: rotate(-5deg);
 }
 
+h6
+{
+    margin-top: 1.3em;
+    margin-bottom: -40px;
+    margin-left: 0.8rem;
+    color: white;
+    font-size: 1rem;
+
+    overflow: hidden;
+    /* background-color: rgb(0,0,0,0.7); */
+    /* transform: translateY(1.5rem); */
+    color: rgb(255,255,255,1);
+}
 
 #fulgere 
 {
@@ -133,35 +156,60 @@ h3
     left: 5px;
     font-size: 4rem;
     text-shadow: 0px 0px 15px #0000FF; 
+}
 
+nav {
+    align-items: center;
+    width:  100%;
+}
+
+nav li {
+    flex-basis: 33%;
+    padding: 0.5rem; /* schimbi cat de mici is oarecum si aici */
+
+    text-align: center;
+}
+
+#plm
+{
+    padding: 0.00rem;
+}
+
+
+#logoEbec {
+    flex-basis: 50%;
 }
 
 .nav-link
 {
     font-size: 1.5rem;
     color: white;
-
 }
+/*
 
 .navbar-brand
 {
-    /* position: absolute; */
-    color: white;
+    position: absolute; 
+     color: white;
     font-size: 2rem;
-}
-.nav-item img
-{
-    max-width: 90%;
-    max-height: 8rem;
-    
-}
+} 
+*/
 
+nav img
+{
+
+    max-height: 5rem;
+    max-width: 90%;
+} 
+/*
   #logoEbec img 
 {
     height: auto;
     width: 14rem;
     margin-top: 1.3rem;
-}
+}  
+
+*/
 
 #logoEbec img:hover
 {
@@ -169,7 +217,7 @@ h3
 }
 
 
-.nav-item img:hover
+nav img:hover
 {
  filter: brightness(0.5) sepia(0.7) saturate(10000%) hue-rotate(240deg) saturate(60.8%);
 }
@@ -340,21 +388,24 @@ h3
       *
     {
         overflow-x: hidden;
-    
-    
     }
     #titlu
     {
          overflow: hidden;
+         transform: scale(0.8,0.8);
     }
      body 
     {
         position: relative;
     }
+    h1,h2,h3,h6
+    {
+        transform: scale(0.8,0.8);
+    }
     #portal
     {
-        transform: scale(0.7,0.7);
-        transform: translateY(-5rem);
+        transform: scale(0.7,0.7)translateY(-8rem);
+        /* transform: translateY(-5rem); */
     }
       
 }
@@ -371,6 +422,14 @@ h3
 }
 } */
 
+/* @media screen and (max-width: 669px) {
+    h6
+    {
+        transform: translateX(-9rem) translateY(-8rem);
+    }
+      
+}
+ */
 
 
-
+	
