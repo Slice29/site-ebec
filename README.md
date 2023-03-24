@@ -1,2 +1,0 @@
-# site-ebec
-Provizoriu ebec
